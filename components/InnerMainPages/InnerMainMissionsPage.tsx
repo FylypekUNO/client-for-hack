@@ -4,7 +4,7 @@ import MissionsInYourArea from "../MainPage/MissionsInYourArea";
 import Recommendations from "../MainPage/Recommendations";
 import InviteAFriend from "../MainPage/InviteAFriend";
 
-const MainPage = () => {
+const InnerMainMissionsPage = () => {
   return (
     <div className="flex flex-col overflow-y-auto overflow-x-hidden bg-gray-200 space-y-2">
       <MissionsInYourArea />
@@ -15,4 +15,4 @@ const MainPage = () => {
   );
 };
 
-export default MainPage;
+export default InnerMainMissionsPage;
